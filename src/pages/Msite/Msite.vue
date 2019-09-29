@@ -155,7 +155,7 @@ import Swiper from 'swiper'
 import 'swiper/css/swiper.css'
 
 import HeaderTop from '../../components/HeaderTop/HeaderTop'
-import ShopList from '../../components/ShopList/shopList'
+import ShopList from '../../components/ShopList/ShopList'
 
 export default {
   mounted () {

@@ -1,7 +1,8 @@
 <template>
   <div id='app'>
     <router-view></router-view>
-    <FootGuider></FootGuider>
+    <!-- 通过路由中配置的meta属性，自定义是否显示底部 -->
+    <FootGuider v-show="$route.meta.showFooter"></FootGuider>
   </div>
 </template>
 
